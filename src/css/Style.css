@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.btnClick {
+    @apply bg-[#0F5132] text-white;
+}
