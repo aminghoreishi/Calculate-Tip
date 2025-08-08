@@ -5,10 +5,11 @@
 <p>it built with vite</p>
 
 
-<h2>Instalation</h2>
+<h3>Instalation</h3>
 
 ```
 cd calculate
 npm i
 npm run dev
 ```
+
