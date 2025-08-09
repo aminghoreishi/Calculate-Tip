@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import LeftSec from "../LeftSec/LeftSec";
 import RightSec from "../RightSec/RightSec";
 
@@ -27,6 +27,12 @@ function Container() {
     }
   }, [spilit]);
 
+  const resetAll = useCallback(() => {
+    setSpilit(1);
+    setTip(10);
+    setBill("");
+  }, []);
+
   return (
     <div className="bg-white w-[600px] h-auto sm:h-[300px] rounded-lg p-3">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 h-full">
@@ -40,7 +46,7 @@ function Container() {
           checkBillRegex={checkBillRegex}
           checkSpilitRegex={checkSpilitRegex}
         />
-        <RightSec bill={bill} tip={tip} spilit={spilit} />
+        <RightSec bill={bill} tip={tip} spilit={spilit} resetAll={resetAll} />
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ function LeftSec({
 }) {
   return (
     <div>
-      <div className="flex flex-col justify-between  h-full">
+      <div className="flex flex-col max-sm:gap-5 justify-between  h-full">
         <h1 className="font-semibold text-lg">Calculate Tip</h1>
         <div className=" w-full">
           <label className=" font-semibold  text-xs fontCus " htmlFor="">
@@ -23,6 +23,7 @@ function LeftSec({
             type="text"
             name=""
             id=""
+            value={bill}
             maxLength={7}
             onChange={(e) => setBill(e.target.value)}
           />
