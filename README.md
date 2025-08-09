@@ -1,8 +1,17 @@
 <h1>Calculate Tip Project</h1>
 
+<div style="display:flex">
+  
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" >
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" >
+<img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" >
+</div>
+
+<br>
+
 ✨ Features
-<p>Responsive</p>
-<p>it built with vite</p>
+- Responsive
+- it built with vite
 
 
 <h3>Instalation</h3>
@@ -12,4 +21,5 @@ cd calculate
 npm i
 npm run dev
 ```
+
 
