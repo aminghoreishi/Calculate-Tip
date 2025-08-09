@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
 .btnClick {
-    @apply bg-[#0F5132] text-white;
+  @apply bg-green-800 text-white;
+}
+
+.fontCus {
+  @apply font-mono;
 }
