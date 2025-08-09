@@ -30,13 +30,7 @@
 
 Here’s a screenshot of the app in action:
 
-![App Screenshot](./path/to/screenshot.png)
+![App Screenshot](https://github.com/aminghoreishi/Calculate-Tip/blob/master/Screenshot%202025-08-09%20192209.png)
 
-*You can replace `./path/to/screenshot.png` with the path to your image file or an external image URL.*
 
----
 
-This section adds a place for you to show off your project visually. You can add as many images as you'd like, just follow the format:
-
-```md
-![Image Description](./path/to/your/image.png)
