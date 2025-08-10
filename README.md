@@ -35,10 +35,10 @@ Here’s a screenshot of the app in action:
 ### 📩 **Installation**
 
 ```
-cd Cal
 npm install
 npm run dev
 ```
+
 
 
 
