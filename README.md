@@ -32,5 +32,11 @@ Here’s a screenshot of the app in action:
 
 ![App Screenshot](https://github.com/aminghoreishi/Calculate-Tip/blob/master/Screenshot%202025-08-09%20192209.png)
 
+### 🖼️ **installation**
+
+```
+cd cal
+```
+
 
 
