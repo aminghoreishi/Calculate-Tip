@@ -2,7 +2,7 @@
 
 **Calculate Tip** is a user-friendly web application that helps users quickly calculate tips based on the bill amount and the desired tip percentage. It features dynamic calculations, input validation with regular expressions (regex), and a reset button to quickly start over.
 
-## 🚀 Live Demo
+### 🚀 Live Demo:
 
 [![Live Demo](https://img.shields.io/badge/Demo-Visit-blue?style=for-the-badge)](https://aminghoreishi.github.io/Calculate-Tip/)
 
@@ -41,3 +41,4 @@ Here’s a screenshot of the app in action:
 ```bash
 npm install
 npm run dev
+
