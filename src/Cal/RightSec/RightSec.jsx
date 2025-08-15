@@ -11,26 +11,26 @@ const RightSec = memo(({ bill, tip, spilit, resetAll }) => {
 
   return (
     <div className="bg-green-700 h-full rounded-lg p-2 flex max-sm:gap-5 flex-col justify-between">
-      <div className="flex items-center justify-between h-full text-white">
+      <div className="flex items-center justify-between  text-white">
         <h1 className="text-sm fontCus">Base:</h1>
-        <p className="text-lg">{billNum}</p>
+        <p className="text-lg fontCus">{billNum}</p>
       </div>
 
       <div className="flex items-center  justify-between text-white">
         <h1 className="text-sm fontCus">Tip:</h1>
-        <p className="text-lg">{tipAmount.toFixed(2)}</p>
+        <p className="text-lg fontCus">{tipAmount.toFixed(2)}</p>
       </div>
 
       <div className="flex items-center  justify-between text-white">
         <h1 className="text-sm fontCus">Per Person:</h1>
-        <p className="text-lg">{perPerson.toFixed(2)}</p>
+        <p className="text-lg fontCus">{perPerson.toFixed(2)}</p>
       </div>
 
       <hr className="text-white" />
 
       <div className="flex items-center justify-between text-white">
         <p className="fontCus">Total:</p>
-        <p>{total.toFixed(2)}</p>
+        <p className="text-lg fontCus">{total.toFixed(2)}</p>
       </div>
 
       <div>
